@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: 1,
+    name: 'Burger Classic',
+    category: 'BURGER',
+    price: 28,
+    rating: 4.9,
+    image: require('../assets/burger.jpg'),
+    description: "Today's Hot offer",
+  },
+  {
+    id: 2,
+    name: 'Pizza Pepperoni',
+    category: 'PIZZA',
+    price: 24,
+    rating: 4.8,
+    image: require('../assets/pizza.jpg'),
+    description: 'Cheesy and delicious',
+  },
+  {
+    id: 3,
+    name: 'Orange Drink',
+    category: 'DRINK',
+    price: 8,
+    rating: 4.5,
+    image: require('../assets/drink.jpg'),
+    description: 'Fresh and refreshing',
+  },
+  {
+    id: 4,
+    name: 'Rice Combo',
+    category: 'RICI',
+    price: 18,
+    rating: 4.4,
+    image: require('../assets/rice.jpg'),
+    description: 'Rice with side dish',
+  },
+  {
+    id: 5,
+    name: 'Burger Special',
+    category: 'BURGER',
+    price: 30,
+    rating: 4.7,
+    image: require('../assets/burger.jpg'),
+    description: 'Double meat burger',
+  },
+  {
+    id: 6,
+    name: 'Pizza Seafood',
+    category: 'PIZZA',
+    price: 26,
+    rating: 4.6,
+    image: require('../assets/pizza.jpg'),
+    description: 'Fresh seafood pizza',
+  },
+];
+
+export default products;
